@@ -1,0 +1,110 @@
+@media (prefers-color-scheme: light){
+    body{
+        background-color: white;
+    }
+    header{
+        background-image: url(../img/halo-infinite-cover.jpeg);
+        
+    }
+    li{
+        list-style: none;
+        color: black ;
+    }
+    h2{
+        color:black;
+    }
+    h4{
+        color: black;
+    }
+    p{
+        color:black;
+    }
+    nav{
+        background-color:rgb(255,255,255,0.4);
+    }
+    nav ul li a {
+        color: black;
+    }
+    nav ul li .link::before{
+        background-color: black;
+    }
+
+    .header{
+        background-color: rgb(255,255,255,0.4);
+    }
+    span{
+        color: black;
+    }
+    .header .bmenu{
+        color: black;
+        background-color: none;
+        border: none;
+        outline: none;
+    }
+    .links{
+        background-color: white;
+    }
+    .links a{
+        color: black;
+    }
+    .links a:hover{
+        background-color: black;
+        color: white;
+    }
+    h2::before{
+        background-color: #8cd320;
+    }
+
+    .green-button{
+        background-color: #8cd320;
+    }
+    .green-button:hover{
+        background-color:greenyellow;
+    }
+    .green-link{
+        color: #8cd320;
+    }
+    .green-link::before{
+        background-color: #8cd320;
+    }
+    h3{
+        color: black;
+    }
+    .video{
+        color: black;
+    }
+    #video #slider #controls #prev,
+    #video #slider #controls #next{
+        color: black;
+    }
+    h2{
+        color: black !important;
+    }
+    footer{
+        background-image: url(../img/master-chief.jpeg);
+    }
+    @media screen and (max-width: 662px) {
+        #banner{
+            background-color: white;
+            color: black;
+        }
+        h2{
+            color: black;
+        }
+        p{
+            color:black;
+        }
+        .info{
+            background-color: rgba(248, 241, 241, 0.884);
+        }
+        
+
+    }
+    
+}
+
+   
+
+@media (prefers-color-scheme: dark){
+
+}
